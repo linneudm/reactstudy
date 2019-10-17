@@ -5,10 +5,12 @@ import Routes from './routes';
 import './styles.css'; 
 
 import Header from './components/Header';
+import Navbar from './components/Navbar';
 import Main from './pages/main';
 
 const App = () => (
     <div className="App">
+      <Navbar/>
       <Header/>
       <Routes/>
     </div>
