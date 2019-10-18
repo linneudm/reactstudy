@@ -1,11 +1,7 @@
 header#main-header{
-	height: 70px;
-	background: #da552f;
 	width: 100%;
-	font-size: 18px;
-	font-weight: bold;
-	color: #fff;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    background: #fff;
+    padding: 34px 0px 16px 0px;
+    position: relative;
+    text-align: center;
 }

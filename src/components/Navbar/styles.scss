@@ -7,3 +7,20 @@ div#navbar-main{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.04);
     display: block;	
 }
+
+div#navbar-main a{
+	text-decoration: none;
+	color: #da552f;
+	display: block;
+}
+
+div#navbar-main #main-link{
+	width: 100%;
+}
+
+div#navbar-main ul{
+	width: 100%;
+	list-style: none;
+}
+div#navbar-main ul li{
+}

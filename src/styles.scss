@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.body-main{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    background: #F4F9FD;
+    background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.04) 100%);
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    background: #F4F9FD;
+    background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.04) 100%);
+}
+
+.cardList{
+    width: 330px;
+    float: left;
+    padding: 24px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.container-titleCard{
+    float: left;
+    width: 100%;
+    max-width: 282px;
+    max-height: 48px;
+    overflow: hidden;
+}
+
+.subTitleCard{
+    border: none;
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    font-family: 'MaisonNeue-Bold';
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: left;
+    background: none;
+}
+
+.carDesc{
+    float: left;
+    font-family: 'MaisonNeue-Book';
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.32);
+    margin-left: 4px;
+}
+.carDesc2{
+    @extend .carDesc;
+    font-size: 14px;
+}
+.cardDados{
+    float: left;
+    font-family: 'MaisonNeue-Bold';
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: left;
+    &.view{
+        font-family: 'MaisonNeue-Medium';
+        max-width: 83%;
+        overflow: hidden;
+    }
+    &.RT{
+        float: right;
+        text-align: right;
+    }
+}
+
+.titleCard{
+    float: left;
+    width: 100%;
+    font-family: 'MaisonNeue-Bold';
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: left;
+}
+
+.st{
+    float: left;
+    font-family: 'SourceSansPro-SemiBold';
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 0px 4px;
+    &.stInadimplente{
+        color: #ff7500;
+        background: rgba(255, 117, 0, 0.16);
+    }
+    &.stNorm{
+        color: #009688;
+        background: rgba(0, 150, 136, 0.16);
+    }
+}
+
+.pesquisa{
+    width: 100%;
+    height: 40px;
+    padding: 11px 69px 11px 36px;
+    background: rgba(210, 214, 222, 0.24);
+    border-radius: 20px;
+    border: 1px solid rgba(210, 214, 222, 0.24);
+    font-family: 'MaisonNeue-Bold';
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    transition: all 0.5s ease;
+    &:focus{
+        border: 1px solid #D2D6DE;
+        background: white;
+        transition: all 0.5s ease
+    }
+    &::placeholder{
+        font-family: 'MaisonNeue-Book';
+    }
+}
+
+input, input:focus{
+    outline: none;
+}
